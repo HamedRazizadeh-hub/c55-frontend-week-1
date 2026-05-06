@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamed Razizadeh Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hamed Razizadeh</h1>
+      <p>Frontend Developer Student</p>
+
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4D03AQHJh1pgR0V6xg/profile-displayphoto-scale_400_400/B4DZ386YA5HkAk-/0/1778064656767?e=1779926400&v=beta&t=lz9OJBRjDMcdJ9Ta94DItBx7vRMNvRnZscn-KJOX7WM"
+        alt="profile-picture"
+      />
+      <button id="theme-toggle" type="button">Toggle Theme</button>
+    </header>
+
+    <main>
+      <section>
+        <h2>about Me</h2>
+        <p>
+          My name is Hamed Razizadeh. I am learning frontend development and
+          building my skills in HTML, CSS, and JavaScript.
+        </p>
+        <p>
+          I have a background in architecture, and I enjoy combining design
+          thinking with web development.
+        </p>
+        <p>
+          My goal is to create clean, accessible, and user-friendly websites.
+        </p>
+
+        <h2>My Interests</h2>
+        <ul>
+          <li>Web development</li>
+          <li>Architecture</li>
+          <li>Design</li>
+          <li>Cooking</li>
+          <li>Learning new technologies</li>
+          <li>Playing video games</li>
+          <li>Traveling</li>
+          <li>Music</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Get in Touch</h2>
+
+        <form id="contact-form">
+          <div>
+            <label for="name">Name: *</label>
+            <input type="text" id="name" name="name" required />
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" />
+          </div>
+
+          <div>
+            <label for="email">Email: *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="message">Message: *</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div id="form-message"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Hamed Razizadeh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
